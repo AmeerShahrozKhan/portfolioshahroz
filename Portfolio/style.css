@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    width: 1140px;
+    height: 70vh;
+    background-color: rgb(231, 231, 231);
+    margin: 0 auto;
+    margin-top: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+header{
+    background-image: url('Image/bg\ img.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ulist{
+    text-align: right;
+}
+
+.ulist li{
+    display: inline-block;
+    padding: 45px 232px 0px 0px;
+    font-size: 22px;
+}
+
+.ulist li a{
+   text-decoration: none;
+   color: white;
+   /* border-bottom: 2px solid rgb(108, 108, 204); */
+   
+}
+
+.ulist li a:hover{
+    color: rgb(108, 108, 204);
+    border-bottom: 2px solid rgb(108, 108, 204);
+}
+
+.my-img{
+    height: 412px;
+width: 278px;
+border-radius: 134px;
+margin: 90px 0 0 1000px;
+border: 2px solid white;
+} 
+
+.header-h1{
+    color: white;
+    font-size: 70px;
+    margin: -376px 0px 0px 100px;
+}
+
+#header-h2{
+    color: white;
+    margin-left: 102px;
+}
+
+section{
+    height: 100vh;
+    
+
+}
+#section-h1{
+    text-align: center;
+    
+    font-size: 35px ;
+    padding-top: 60px;
+    color: rgb(108, 108, 204);
+}
+
+.p-info{
+    
+    text-align: justify;
+    padding: 60px 0 0 40px;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.header-info{
+    color: white;
+    padding-top: 20px;
+    padding-left: 102px ;
+    width: 30%;
+    height: auto;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 100px;
+}
